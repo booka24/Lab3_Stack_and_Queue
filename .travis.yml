@@ -8,6 +8,7 @@ before_script:
 script:
   - cmake ../Laba3
   - make -j
+  - ls
   - ./test/test_Steck
 notifications:
   email: false
