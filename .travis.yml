@@ -6,7 +6,7 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../Laba3
+  - cmake ../Lab3_Stack_and_Queue
   - make -j
   - ls
   - ./test/test_Steck
